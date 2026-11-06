@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Maz Lite - سبک‌سازی رابط ماز",
+  "version": "1.0.0",
+  "description": "کاهش افکت‌های نمایشی سنگین فقط در biomaze.ir برای روان‌تر شدن رابط کاربری.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://biomaze.ir/*",
+        "https://www.biomaze.ir/*",
+        "https://*.biomaze.ir/*"
+      ],
+      "css": ["maz-lite.css"],
+      "run_at": "document_start"
+    }
+  ]
+}
