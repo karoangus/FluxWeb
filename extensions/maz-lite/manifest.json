@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Maz Lite — کنترل سبک‌سازی ماز",
+  "version": "1.1.0",
+  "description": "کنترل سبک و مستقل جلوه‌های نمایشی در biomaze.ir و زیردامنه‌های آن.",
+  "permissions": ["storage"],
+  "action": {"default_title": "تنظیمات Maz Lite", "default_popup": "popup.html"},
+  "content_scripts": [{
+    "matches": ["https://biomaze.ir/*", "https://*.biomaze.ir/*"],
+    "css": ["optimize.css"],
+    "js": ["settings.js", "content.js"],
+    "run_at": "document_start"
+  }]
+}

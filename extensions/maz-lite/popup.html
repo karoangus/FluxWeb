@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>تنظیمات Maz Lite</title><link rel="stylesheet" href="popup.css"></head>
+<body>
+<header><div class="brand"><span class="bolt">ϟ</span><div><strong>Maz Lite</strong><small>کنترل سبک‌سازی ماز</small></div></div><span class="version">۱.۱ آزمایشی</span></header>
+<main>
+  <div class="intro"><h1>وبی روان‌تر، با انتخاب تو.</h1><p>هر تغییر را جداگانه کنترل کن. تنظیمات روی همین مرورگر ذخیره می‌شوند.</p></div>
+  <div class="switch-row master"><div><label for="enabled">فعال‌سازی سبک‌سازی</label><small>خاموش کردن همه تغییرات</small></div><input id="enabled" type="checkbox" role="switch"></div>
+  <div class="section-title">تنظیمات جلوه‌ها <span>VISUAL EFFECTS</span></div>
+  <div class="options">
+    <div class="switch-row"><div><label for="animations">کاهش انیمیشن‌ها</label><small>از جمله انیمیشن بارگذاری</small></div><input id="animations" type="checkbox" role="switch"></div>
+    <div class="switch-row"><div><label for="transitions">کاهش transitionها</label><small>تغییرات منو و پنجره</small></div><input id="transitions" type="checkbox" role="switch"></div>
+    <div class="switch-row"><div><label for="shadows">حذف سایهٔ عناصر</label><small>سایهٔ جعبه‌ها و کارت‌ها</small></div><input id="shadows" type="checkbox" role="switch"></div>
+    <div class="switch-row"><div><label for="textShadows">حذف سایهٔ متن</label><small>متن‌ها و نوشته‌ها</small></div><input id="textShadows" type="checkbox" role="switch"></div>
+    <div class="switch-row"><div><label for="blur">حذف تاری پس‌زمینه</label><small>افکت شیشه‌ای پشت عناصر</small></div><input id="blur" type="checkbox" role="switch"></div>
+    <div class="switch-row"><div><label for="smoothScroll">اسکرول بدون انیمیشن</label><small>غیرفعال کردن اسکرول نرم CSS</small></div><input id="smoothScroll" type="checkbox" role="switch"></div>
+  </div>
+  <p class="warning">این تغییرات سراسری و آزمایشی‌اند؛ سازگاری با آزمون تأیید نشده. در صورت بروز مشکل، افزونه را خاموش و صفحه را تازه‌سازی کن.</p>
+  <div class="bottom"><button id="reset" type="button">بازگشت به پیش‌فرض ↺</button><span id="status" role="status" aria-live="polite"></span></div>
+</main>
+<script src="settings.js"></script><script src="popup.js"></script>
+</body></html>

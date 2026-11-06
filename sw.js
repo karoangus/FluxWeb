@@ -1,6 +1,6 @@
 'use strict';
-const CACHE = 'fluxweb-v1';
-const ASSETS = ['./', './index.html', './styles.css', './app.js', './site.webmanifest', './assets/icon-192.png', './assets/icon-512.png', './downloads/maz-lite-1.0.0-experimental.zip'];
+const CACHE = 'fluxweb-v2';
+const ASSETS = ['./', './index.html', './styles.css', './app.js', './site.webmanifest', './assets/icon-192.png', './assets/icon-512.png', './downloads/maz-lite-1.0.0-experimental.zip', './downloads/maz-lite-1.1.0-experimental.zip'];
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(ASSETS)));
 });
