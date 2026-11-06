@@ -1,0 +1,23 @@
+/* Experimental, opt-out legacy rules. Scoped to the root flags set by content.js. */
+html[data-mazlite-animations="on"], html[data-mazlite-animations="on"]::before, html[data-mazlite-animations="on"]::after,
+html[data-mazlite-animations="on"] *, html[data-mazlite-animations="on"] *::before, html[data-mazlite-animations="on"] *::after {
+  animation-duration: 0.001ms !important;
+  animation-delay: 0ms !important;
+  animation-iteration-count: 1 !important;
+}
+html[data-mazlite-transitions="on"], html[data-mazlite-transitions="on"]::before, html[data-mazlite-transitions="on"]::after,
+html[data-mazlite-transitions="on"] *, html[data-mazlite-transitions="on"] *::before, html[data-mazlite-transitions="on"] *::after {
+  transition-duration: 0.001ms !important;
+  transition-delay: 0ms !important;
+}
+html[data-mazlite-shadows="on"], html[data-mazlite-shadows="on"]::before, html[data-mazlite-shadows="on"]::after,
+html[data-mazlite-shadows="on"] *, html[data-mazlite-shadows="on"] *::before, html[data-mazlite-shadows="on"] *::after { box-shadow: none !important; }
+html[data-mazlite-textshadows="on"], html[data-mazlite-textshadows="on"]::before, html[data-mazlite-textshadows="on"]::after,
+html[data-mazlite-textshadows="on"] *, html[data-mazlite-textshadows="on"] *::before, html[data-mazlite-textshadows="on"] *::after { text-shadow: none !important; }
+html[data-mazlite-blur="on"], html[data-mazlite-blur="on"]::before, html[data-mazlite-blur="on"]::after,
+html[data-mazlite-blur="on"] *, html[data-mazlite-blur="on"] *::before, html[data-mazlite-blur="on"] *::after {
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}
+html[data-mazlite-smoothscroll="on"], html[data-mazlite-smoothscroll="on"]::before, html[data-mazlite-smoothscroll="on"]::after,
+html[data-mazlite-smoothscroll="on"] *, html[data-mazlite-smoothscroll="on"] *::before, html[data-mazlite-smoothscroll="on"] *::after { scroll-behavior: auto !important; }
