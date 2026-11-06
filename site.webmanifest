@@ -1,0 +1,16 @@
+{
+  "name": "FluxWeb — دانلودسنتر افزونه‌ها",
+  "short_name": "FluxWeb",
+  "description": "افزونه‌های کوچک برای تجربه‌ای ساده‌تر در وب",
+  "lang": "fa",
+  "dir": "rtl",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0b0d12",
+  "theme_color": "#0b0d12",
+  "icons": [
+    {"src": "assets/icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "assets/icon-512.png", "sizes": "512x512", "type": "image/png"}
+  ]
+}
